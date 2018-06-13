@@ -1,0 +1,4 @@
+../deps/v8/src/compiler/bytecode-graph-builder.cc: In member function 'void v8::internal::compiler::BytecodeGraphBuilder::VisitTestTypeOf()':
+../deps/v8/src/compiler/bytecode-graph-builder.cc:2519:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   environment()->BindAccumulator(result);
+                                         ^

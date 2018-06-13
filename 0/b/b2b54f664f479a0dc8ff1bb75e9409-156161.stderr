@@ -1,0 +1,4 @@
+../deps/icu-small/source/io/uprntf_p.c: In function 'u_printf_string_handler':
+../deps/icu-small/source/io/uprntf_p.c:210:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (argSize >= MAX_UCHAR_BUFFER_SIZE(buffer)) {
+                     ^

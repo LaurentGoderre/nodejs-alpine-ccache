@@ -1,0 +1,25 @@
+../deps/v8/src/objects/module.cc: In member function 'v8::internal::Cell* v8::internal::Module::GetCell(int)':
+../deps/v8/src/objects/module.cc:163:25: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return Cell::cast(cell);
+                         ^
+In file included from ../deps/v8/src/objects-inl.h:47:0,
+                 from ../deps/v8/src/objects/module.cc:12:
+../deps/v8/src/objects/object-macros.h: In static member function 'static v8::internal::Handle<v8::internal::Object> v8::internal::Module::LoadVariable(v8::internal::Handle<v8::internal::Module>, int)':
+../deps/v8/src/objects/object-macros.h:60:22: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return type::cast(READ_FIELD(this, offset));                      \
+                      ^
+../deps/v8/src/objects/module.cc:150:11: note: 'cell' was declared here
+   Object* cell;
+           ^~~~
+In file included from ../deps/v8/src/heap/heap-inl.h:14:0,
+                 from ../deps/v8/src/objects/shared-function-info-inl.h:8,
+                 from ../deps/v8/src/contexts-inl.h:14,
+                 from ../deps/v8/src/objects-inl.h:18,
+                 from ../deps/v8/src/objects/module.cc:12:
+../deps/v8/src/heap/incremental-marking-inl.h: In static member function 'static void v8::internal::Module::StoreVariable(v8::internal::Handle<v8::internal::Module>, int, v8::internal::Handle<v8::internal::Object>)':
+../deps/v8/src/heap/incremental-marking-inl.h:18:38: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     RecordWriteSlow(obj, slot, value);
+                                      ^
+../deps/v8/src/objects/module.cc:150:11: note: 'cell' was declared here
+   Object* cell;
+           ^~~~

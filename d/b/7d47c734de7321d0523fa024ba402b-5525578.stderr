@@ -1,0 +1,14 @@
+In file included from ../deps/v8/src/objects-inl.h:47:0,
+                 from ../deps/v8/src/x64/assembler-x64-inl.h:12,
+                 from ../deps/v8/src/assembler-inl.h:13,
+                 from ../deps/v8/src/isolate.cc:12:
+../deps/v8/src/objects/object-macros.h: In member function 'v8::internal::Handle<v8::internal::StackFrameInfo> v8::internal::CaptureStackTraceHelper::NewStackFrameObject(const v8::internal::FrameSummary::JavaScriptFrameSummary&)':
+../deps/v8/src/objects/object-macros.h:142:47: warning: 'maybe_cache' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   reinterpret_cast<Object*>(base::Relaxed_Load( \
+                                               ^
+../deps/v8/src/isolate.cc:670:13: note: 'maybe_cache' was declared here
+     Object* maybe_cache;
+             ^~~~~~~~~~~
+../deps/v8/src/isolate.cc:713:79: warning: 'code_offset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       auto new_cache = UnseededNumberDictionary::Set(cache, code_offset, frame);
+                                                                               ^

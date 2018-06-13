@@ -1,0 +1,33 @@
+In file included from ../deps/v8/src/objects-inl.h:47:0,
+                 from ../deps/v8/src/x64/assembler-x64-inl.h:12,
+                 from ../deps/v8/src/assembler-inl.h:13,
+                 from ../deps/v8/src/macro-assembler.h:8,
+                 from ../deps/v8/src/x64/codegen-x64.h:8,
+                 from ../deps/v8/src/codegen.h:49,
+                 from ../deps/v8/src/code-stubs.h:10,
+                 from ../deps/v8/src/heap/mark-compact.cc:10:
+../deps/v8/src/objects/object-macros.h: In member function 'void v8::internal::MarkCompactCollector::ClearFullMapTransitions()':
+../deps/v8/src/objects/object-macros.h:142:47: warning: 'array' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   reinterpret_cast<Object*>(base::Relaxed_Load( \
+                                               ^
+../deps/v8/src/heap/mark-compact.cc:2836:20: note: 'array' was declared here
+   TransitionArray* array;
+                    ^~~~~
+../deps/v8/src/heap/mark-compact.cc: In member function 'void v8::internal::MarkCompactCollector::ClearWeakCellsAndSimpleMapTransitions(v8::internal::DependentCode**)':
+../deps/v8/src/heap/mark-compact.cc:3061:49: warning: 'weak_cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         ClearSimpleMapTransition(weak_cell, map);
+                                                 ^
+In file included from ../deps/v8/src/base/atomicops_internals_portable.h:35:0,
+                 from ../deps/v8/src/base/atomicops.h:135,
+                 from ../deps/v8/src/base/atomic-utils.h:11,
+                 from ../deps/v8/src/heap/marking.h:8,
+                 from ../deps/v8/src/heap/mark-compact.h:11,
+                 from ../deps/v8/src/heap/mark-compact.cc:5:
+../deps/v8/src/base/macros.h: In member function 'virtual void v8::internal::MarkCompactCollector::EmptyMarkingWorklist()':
+../deps/v8/src/base/macros.h:288:30: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return x - static_cast<T>(0);
+                              ^
+In file included from ../deps/v8/src/heap/mark-compact.cc:5:0:
+../deps/v8/src/heap/mark-compact.h:508:19: note: 'result' was declared here
+       HeapObject* result;
+                   ^~~~~~

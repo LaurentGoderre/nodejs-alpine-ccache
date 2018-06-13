@@ -1,0 +1,4 @@
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8DebuggerAgentImpl.cpp: In member function 'void v8_inspector::V8DebuggerAgentImpl::restore()':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8DebuggerAgentImpl.cpp:224:13: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+             NOTREACHED();
+             ^

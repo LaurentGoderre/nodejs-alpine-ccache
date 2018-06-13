@@ -1,0 +1,16 @@
+../deps/v8/src/wasm/baseline/liftoff-compiler.cc: In member function 'int v8::internal::wasm::WasmFullDecoder<validate, Interface>::DecodeStoreMem(v8::internal::wasm::StoreType, int) [with v8::internal::wasm::Decoder::ValidateFlag validate = (v8::internal::wasm::Decoder::ValidateFlag)1u; Interface = v8::internal::wasm::{anonymous}::LiftoffCompiler]':
+../deps/v8/src/wasm/baseline/liftoff-compiler.cc:1344:48: warning: 'operand.v8::internal::wasm::MemoryAccessOperand<(v8::internal::wasm::Decoder::ValidateFlag)1u>::offset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                            decoder->position());
+                                                ^
+In file included from ../deps/v8/src/wasm/baseline/liftoff-compiler.cc:13:0:
+../deps/v8/src/wasm/function-body-decoder-impl.h:2106:35: note: 'operand.v8::internal::wasm::MemoryAccessOperand<(v8::internal::wasm::Decoder::ValidateFlag)1u>::offset' was declared here
+     MemoryAccessOperand<validate> operand(this, this->pc_ + prefix_len,
+                                   ^~~~~~~
+../deps/v8/src/wasm/baseline/liftoff-compiler.cc: In member function 'int v8::internal::wasm::WasmFullDecoder<validate, Interface>::DecodeLoadMem(v8::internal::wasm::LoadType, int) [with v8::internal::wasm::Decoder::ValidateFlag validate = (v8::internal::wasm::Decoder::ValidateFlag)1u; Interface = v8::internal::wasm::{anonymous}::LiftoffCompiler]':
+../deps/v8/src/wasm/baseline/liftoff-compiler.cc:1298:5: warning: 'operand.v8::internal::wasm::MemoryAccessOperand<(v8::internal::wasm::Decoder::ValidateFlag)1u>::offset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (BoundsCheckMem(decoder, type.size(), operand.offset, index, pinned)) {
+     ^~
+In file included from ../deps/v8/src/wasm/baseline/liftoff-compiler.cc:13:0:
+../deps/v8/src/wasm/function-body-decoder-impl.h:2096:35: note: 'operand.v8::internal::wasm::MemoryAccessOperand<(v8::internal::wasm::Decoder::ValidateFlag)1u>::offset' was declared here
+     MemoryAccessOperand<validate> operand(this, this->pc_ + prefix_len,
+                                   ^~~~~~~

@@ -1,0 +1,9 @@
+In file included from ../deps/v8/src/parsing/preparser.cc:18:0:
+../deps/v8/src/parsing/preparser.h: In member function 'v8::internal::ParserBase<Impl>::StatementT v8::internal::ParserBase<Impl>::ParseHoistableDeclaration(int, v8::internal::ParseFunctionFlags, v8::internal::ZoneList<const v8::internal::AstRawString*>*, bool, bool*) [with Impl = v8::internal::PreParser]':
+../deps/v8/src/parsing/preparser.h:1088:64: warning: 'variable_name.v8::internal::PreParserIdentifier::string_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       scope()->DeclareVariableName(variable_name.string_, mode);
+                                                                ^
+In file included from ../deps/v8/src/parsing/preparser.cc:14:0:
+../deps/v8/src/parsing/parser-base.h:3917:15: note: 'variable_name.v8::internal::PreParserIdentifier::string_' was declared here
+   IdentifierT variable_name;
+               ^~~~~~~~~~~~~

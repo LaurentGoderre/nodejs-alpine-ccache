@@ -1,0 +1,8 @@
+../deps/v8/src/snapshot/deserializer.cc: In member function 'v8::internal::Object* v8::internal::Deserializer<AllocatorT>::ReadDataSingle() [with AllocatorT = v8::internal::BuiltinDeserializerAllocator]':
+../deps/v8/src/snapshot/deserializer.cc:363:10: warning: 'heap_object' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return heap_object;
+          ^~~~~~~~~~~
+../deps/v8/src/snapshot/deserializer.cc: In member function 'v8::internal::Object* v8::internal::Deserializer<AllocatorT>::ReadDataSingle() [with AllocatorT = v8::internal::DefaultDeserializerAllocator]':
+../deps/v8/src/snapshot/deserializer.cc:363:10: warning: 'heap_object' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return heap_object;
+          ^~~~~~~~~~~

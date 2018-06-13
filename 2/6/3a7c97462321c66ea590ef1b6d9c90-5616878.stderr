@@ -1,0 +1,22 @@
+../deps/v8/src/wasm/module-decoder.cc: In member function 'v8::internal::wasm::ModuleResult v8::internal::wasm::ModuleDecoder::DecodeModule(v8::internal::wasm::WasmModule*, bool)':
+../deps/v8/src/wasm/module-decoder.cc:174:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::local_f64_count' [-Wmissing-field-initializers]
+                 {nullptr, i, 0, 0, 0, 0, 0, 0, false, false});
+                                                             ^
+../deps/v8/src/wasm/module-decoder.cc:174:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::exported' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:174:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::external' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:228:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::local_f64_count' [-Wmissing-field-initializers]
+                 {nullptr, i, 0, 0, 0, 0, 0, 0, false, false});
+                                                             ^
+../deps/v8/src/wasm/module-decoder.cc:228:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::exported' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:228:61: warning: missing initializer for member 'v8::internal::wasm::WasmFunction::external' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:300:54: warning: missing initializer for member 'v8::internal::wasm::WasmDataSegment::init' [-Wmissing-field-initializers]
+             module->data_segments.push_back({0, 0, 0});
+                                                      ^
+../deps/v8/src/wasm/module-decoder.cc:357:59: warning: missing initializer for member 'v8::internal::wasm::WasmImport::module_name_length' [-Wmissing-field-initializers]
+             module->import_table.push_back({nullptr, 0, 0});
+                                                           ^
+../deps/v8/src/wasm/module-decoder.cc:357:59: warning: missing initializer for member 'v8::internal::wasm::WasmImport::function_name_offset' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:357:59: warning: missing initializer for member 'v8::internal::wasm::WasmImport::function_name_length' [-Wmissing-field-initializers]
+../deps/v8/src/wasm/module-decoder.cc:385:50: warning: missing initializer for member 'v8::internal::wasm::WasmExport::name_length' [-Wmissing-field-initializers]
+             module->export_table.push_back({0, 0});
+                                                  ^

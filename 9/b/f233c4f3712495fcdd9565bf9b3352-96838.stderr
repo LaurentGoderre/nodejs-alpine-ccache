@@ -1,0 +1,4 @@
+../deps/icu-small/source/io/uscanf.c: In function 'u_vfscanf_58':
+../deps/icu-small/source/io/uscanf.c:77:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (size >= MAX_UCHAR_BUFFER_SIZE(patBuffer)) {
+              ^

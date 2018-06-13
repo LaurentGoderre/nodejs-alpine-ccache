@@ -1,0 +1,4 @@
+../deps/icu-small/source/i18n/msgfmt.cpp: In function 'void icu_61::MessageFormat::cacheExplicitFormats(UErrorCode&)':
+../deps/icu-small/source/i18n/msgfmt.cpp:1667:61: warning: 'formattableType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             if (argTypes[argNumber] != Formattable::kObject && argTypes[argNumber] != formattableType) {
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

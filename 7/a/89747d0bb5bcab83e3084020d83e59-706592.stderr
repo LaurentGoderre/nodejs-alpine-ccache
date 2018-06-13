@@ -1,0 +1,5 @@
+../deps/icu-small/source/common/rbbitblb.cpp: In member function 'bool icu_61::RBBITableBuilder::findDuplCharClassFrom(int32_t&, int32_t&)':
+../deps/icu-small/source/common/rbbitblb.cpp:1100:14: warning: 'table_dupl' may be used uninitialized in this function [-Wmaybe-uninitialized]
+              if (table_base == table_dupl) {
+              ^~
+../deps/icu-small/source/common/rbbitblb.cpp:1100:14: warning: 'table_base' may be used uninitialized in this function [-Wmaybe-uninitialized]

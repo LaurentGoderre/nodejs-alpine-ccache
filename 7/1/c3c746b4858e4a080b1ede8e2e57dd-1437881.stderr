@@ -1,0 +1,36 @@
+In file included from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.h:10:0,
+                 from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:7:
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::HeapProfiler::DispatcherImpl::startSampling(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h:558:94: warning: 'in_samplingInterval.v8_inspector::protocol::MaybeBase<double>::m_value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:554:19: note: 'in_samplingInterval.v8_inspector::protocol::MaybeBase<double>::m_value' was declared here
+     Maybe<double> in_samplingInterval;
+                   ^~~~~~~~~~~~~~~~~~~
+In file included from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.h:10:0,
+                 from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:7:
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::HeapProfiler::DispatcherImpl::takeHeapSnapshot(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h:558:94: warning: '*((void*)& in_reportProgress +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:435:17: note: '*((void*)& in_reportProgress +1)' was declared here
+     Maybe<bool> in_reportProgress;
+                 ^~~~~~~~~~~~~~~~~
+In file included from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.h:10:0,
+                 from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:7:
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::HeapProfiler::DispatcherImpl::stopTrackingHeapObjects(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h:558:94: warning: '*((void*)& in_reportProgress +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:411:17: note: '*((void*)& in_reportProgress +1)' was declared here
+     Maybe<bool> in_reportProgress;
+                 ^~~~~~~~~~~~~~~~~
+In file included from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.h:10:0,
+                 from /node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:7:
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::HeapProfiler::DispatcherImpl::startTrackingHeapObjects(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/Protocol.h:558:94: warning: '*((void*)& in_trackAllocations +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v8.11.3/out/Release/obj/gen/src/inspector/protocol/HeapProfiler.cpp:387:17: note: '*((void*)& in_trackAllocations +1)' was declared here
+     Maybe<bool> in_trackAllocations;
+                 ^~~~~~~~~~~~~~~~~~~

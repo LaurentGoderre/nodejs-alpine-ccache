@@ -1,0 +1,26 @@
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = unsigned char]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = unsigned char; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:76:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]
+ inline T LoadSeqCst(T* p) {
+                        ^
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = signed char]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = signed char; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:148:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = short unsigned int]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = short unsigned int; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:224:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = short int]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = short int; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:298:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = unsigned int]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = unsigned int; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:374:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]
+../deps/v8/src/runtime/runtime-atomics.cc: In instantiation of 'T v8::internal::{anonymous}::LoadSeqCst(T*) [with T = int]':
+../deps/v8/src/runtime/runtime-atomics.cc:220:24:   required from 'v8::internal::Object* v8::internal::{anonymous}::DoLoad(v8::internal::Isolate*, void*, size_t) [with T = int; size_t = long unsigned int]'
+../deps/v8/src/runtime/runtime-atomics.cc:419:448:   required from here
+../deps/v8/src/runtime/runtime-atomics.cc:36:24: warning: parameter 'p' set but not used [-Wunused-but-set-parameter]

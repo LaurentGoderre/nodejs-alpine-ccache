@@ -1,0 +1,4 @@
+../deps/icu-small/source/i18n/digitformatter.cpp: In member function 'icu_58::UnicodeString& icu_58::DigitFormatter::format(const icu_58::VisibleDigits&, const icu_58::DigitGrouping&, const icu_58::DigitFormatterOptions&, icu_58::FieldPositionHandler&, icu_58::UnicodeString&) const':
+../deps/icu-small/source/i18n/digitformatter.cpp:236:80: warning: 'fracBegin' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         handler.addAttribute(UNUM_FRACTION_FIELD, fracBegin, appendTo.length());
+                                                                                ^

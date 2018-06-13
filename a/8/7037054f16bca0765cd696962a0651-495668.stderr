@@ -1,0 +1,9 @@
+../deps/icu-small/source/i18n/calendar.cpp:74:14: warning: 'UBool calendar_cleanup()' defined but not used [-Wunused-function]
+ static UBool calendar_cleanup(void) {
+              ^
+../deps/icu-small/source/i18n/calendar.cpp:237:14: warning: 'UBool icu_58::isStandardSupportedKeyword(const char*, UErrorCode&)' defined but not used [-Wunused-function]
+ static UBool isStandardSupportedKeyword(const char *keyword, UErrorCode& status) {
+              ^
+../deps/icu-small/source/i18n/calendar.cpp:245:13: warning: 'void icu_58::getCalendarKeyword(const icu_58::UnicodeString&, char*, int32_t)' defined but not used [-Wunused-function]
+ static void getCalendarKeyword(const UnicodeString &id, char *targetBuffer, int32_t targetBufferSize) {
+             ^

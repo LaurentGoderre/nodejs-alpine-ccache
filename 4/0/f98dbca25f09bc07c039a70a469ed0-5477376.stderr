@@ -1,0 +1,21 @@
+In file included from ../deps/v8/src/objects/fixed-array-inl.h:11:0,
+                 from ../deps/v8/src/objects-inl.h:36,
+                 from ../deps/v8/src/frames-inl.h:11,
+                 from ../deps/v8/src/heap/mark-compact.cc:15:
+../deps/v8/src/objects/object-macros.h: In member function 'void v8::internal::MarkCompactCollector::ClearFullMapTransitions()':
+../deps/v8/src/objects/object-macros.h:165:47: warning: 'array' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   reinterpret_cast<Object*>(base::Relaxed_Load( \
+                                               ^
+../deps/v8/src/heap/mark-compact.cc:1780:20: note: 'array' was declared here
+   TransitionArray* array;
+                    ^~~~~
+In file included from ../deps/v8/src/objects-inl.h:54:0,
+                 from ../deps/v8/src/frames-inl.h:11,
+                 from ../deps/v8/src/heap/mark-compact.cc:15:
+../deps/v8/src/objects/object-macros.h: In member function 'void v8::internal::MarkCompactCollector::ClearWeakCells()':
+../deps/v8/src/objects/object-macros.h:174:22: warning: 'weak_cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   base::Relaxed_Store(                                            \
+                      ^
+../deps/v8/src/heap/mark-compact.cc:1966:13: note: 'weak_cell' was declared here
+   WeakCell* weak_cell;
+             ^~~~~~~~~

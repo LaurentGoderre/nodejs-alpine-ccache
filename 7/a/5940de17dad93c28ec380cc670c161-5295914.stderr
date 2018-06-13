@@ -1,0 +1,13 @@
+In file included from ../deps/v8/src/heap/objects-visiting.h:10:0,
+                 from ../deps/v8/src/heap/mark-compact.h:13,
+                 from ../deps/v8/src/heap/incremental-marking.h:11,
+                 from ../deps/v8/src/heap/incremental-marking.cc:5:
+../deps/v8/src/objects-body-descriptors.h: In function 'void v8::internal::IncrementalMarking::Hurry()':
+../deps/v8/src/objects-body-descriptors.h:75:5: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     IteratePointers(obj, start_offset, end_offset, v);
+     ^~~~~~~~~~~~~~~
+In file included from ../deps/v8/src/heap/incremental-marking.h:11:0,
+                 from ../deps/v8/src/heap/incremental-marking.cc:5:
+../deps/v8/src/heap/mark-compact.h:466:19: note: 'result' was declared here
+       HeapObject* result;
+                   ^~~~~~

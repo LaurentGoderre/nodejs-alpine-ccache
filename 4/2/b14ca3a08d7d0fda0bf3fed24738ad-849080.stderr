@@ -1,0 +1,4 @@
+../deps/icu-small/source/i18n/number_decimalquantity.cpp: In member function 'const char16_t* icu_60::number::impl::DecimalQuantity::checkHealth() const':
+../deps/icu-small/source/i18n/number_decimalquantity.cpp:707:26: warning: assuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+         if (position < 0 || position > precision) { return 0; }
+             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~

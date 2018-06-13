@@ -1,0 +1,7 @@
+../deps/v8/src/interpreter/bytecode-array-builder.cc: In member function 'v8::internal::interpreter::BytecodeArrayBuilder& v8::internal::interpreter::BytecodeArrayBuilder::LoadLiteral(v8::internal::AstSymbol)':
+../deps/v8/src/interpreter/bytecode-array-builder.cc:181:39: warning: 'entry' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return static_cast<uint32_t>(value);
+                                       ^
+../deps/v8/src/interpreter/bytecode-array-builder.cc:606:10: note: 'entry' was declared here
+   size_t entry;
+          ^~~~~

@@ -1,0 +1,4 @@
+../deps/v8/src/regexp/regexp-parser.cc: In member function 'void v8::internal::RegExpBuilder::AddUnicodeCharacter(v8::internal::uc32)':
+../deps/v8/src/regexp/regexp-parser.cc:1341:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (c > unibrow::Utf16::kMaxNonSurrogateCharCode) {
+         ^

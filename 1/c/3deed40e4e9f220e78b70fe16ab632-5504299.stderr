@@ -1,0 +1,8 @@
+../deps/v8/src/interpreter/bytecode-generator.cc: In member function 'void v8::internal::interpreter::BytecodeGenerator::VisitAssignment(v8::internal::Assignment*)':
+../deps/v8/src/interpreter/bytecode-generator.cc:2583:53: warning: 'name' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                                     language_mode());
+                                                     ^
+../deps/v8/src/interpreter/bytecode-generator.cc: In member function 'void v8::internal::interpreter::BytecodeGenerator::VisitCountOperation(v8::internal::CountOperation*)':
+../deps/v8/src/interpreter/bytecode-generator.cc:3620:53: warning: 'name' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                                     language_mode());
+                                                     ^

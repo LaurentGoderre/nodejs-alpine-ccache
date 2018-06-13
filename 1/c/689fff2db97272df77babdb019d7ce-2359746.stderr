@@ -1,0 +1,913 @@
+../src/async_wrap.cc: In function 'void node::LoadAsyncWrapperInfo(node::Environment*)':
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:37:3: note: in expansion of macro 'V'
+   V(NONE)                                                                     \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:38:3: note: in expansion of macro 'V'
+   V(DNSCHANNEL)                                                               \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:39:3: note: in expansion of macro 'V'
+   V(FILEHANDLE)                                                               \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:40:3: note: in expansion of macro 'V'
+   V(FILEHANDLECLOSEREQ)                                                       \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:41:3: note: in expansion of macro 'V'
+   V(FSEVENTWRAP)                                                              \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:42:3: note: in expansion of macro 'V'
+   V(FSREQWRAP)                                                                \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:43:3: note: in expansion of macro 'V'
+   V(FSREQPROMISE)                                                             \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:44:3: note: in expansion of macro 'V'
+   V(GETADDRINFOREQWRAP)                                                       \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:45:3: note: in expansion of macro 'V'
+   V(GETNAMEINFOREQWRAP)                                                       \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:46:3: note: in expansion of macro 'V'
+   V(HTTP2SESSION)                                                             \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:47:3: note: in expansion of macro 'V'
+   V(HTTP2STREAM)                                                              \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:48:3: note: in expansion of macro 'V'
+   V(HTTP2PING)                                                                \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:49:3: note: in expansion of macro 'V'
+   V(HTTP2SETTINGS)                                                            \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:50:3: note: in expansion of macro 'V'
+   V(HTTPPARSER)                                                               \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:51:3: note: in expansion of macro 'V'
+   V(JSSTREAM)                                                                 \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:52:3: note: in expansion of macro 'V'
+   V(PIPECONNECTWRAP)                                                          \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:53:3: note: in expansion of macro 'V'
+   V(PIPESERVERWRAP)                                                           \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:54:3: note: in expansion of macro 'V'
+   V(PIPEWRAP)                                                                 \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:55:3: note: in expansion of macro 'V'
+   V(PROCESSWRAP)                                                              \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:56:3: note: in expansion of macro 'V'
+   V(PROMISE)                                                                  \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:57:3: note: in expansion of macro 'V'
+   V(QUERYWRAP)                                                                \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:58:3: note: in expansion of macro 'V'
+   V(SHUTDOWNWRAP)                                                             \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:59:3: note: in expansion of macro 'V'
+   V(SIGNALWRAP)                                                               \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:60:3: note: in expansion of macro 'V'
+   V(STATWATCHER)                                                              \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:61:3: note: in expansion of macro 'V'
+   V(STREAMPIPE)                                                               \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:62:3: note: in expansion of macro 'V'
+   V(TCPCONNECTWRAP)                                                           \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:63:3: note: in expansion of macro 'V'
+   V(TCPSERVERWRAP)                                                            \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:64:3: note: in expansion of macro 'V'
+   V(TCPWRAP)                                                                  \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:65:3: note: in expansion of macro 'V'
+   V(TIMERWRAP)                                                                \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:66:3: note: in expansion of macro 'V'
+   V(TTYWRAP)                                                                  \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:67:3: note: in expansion of macro 'V'
+   V(UDPSENDWRAP)                                                              \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:68:3: note: in expansion of macro 'V'
+   V(UDPWRAP)                                                                  \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:69:3: note: in expansion of macro 'V'
+   V(WRITEWRAP)                                                                \
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:70:3: note: in expansion of macro 'V'
+   V(ZLIB)
+   ^
+../src/async_wrap.h:89:3: note: in expansion of macro 'NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_NON_CRYPTO_PROVIDER_TYPES(V)                                     \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:74:3: note: in expansion of macro 'V'
+   V(PBKDF2REQUEST)                                                            \
+   ^
+../src/async_wrap.h:90:3: note: in expansion of macro 'NODE_ASYNC_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_CRYPTO_PROVIDER_TYPES(V)                                         \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:75:3: note: in expansion of macro 'V'
+   V(RANDOMBYTESREQUEST)                                                       \
+   ^
+../src/async_wrap.h:90:3: note: in expansion of macro 'NODE_ASYNC_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_CRYPTO_PROVIDER_TYPES(V)                                         \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:76:3: note: in expansion of macro 'V'
+   V(TLSWRAP)
+   ^
+../src/async_wrap.h:90:3: note: in expansion of macro 'NODE_ASYNC_CRYPTO_PROVIDER_TYPES'
+   NODE_ASYNC_CRYPTO_PROVIDER_TYPES(V)                                         \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/async_wrap.cc:579:77: warning: 'void v8::HeapProfiler::SetWrapperClassInfoProvider(uint16_t, v8::HeapProfiler::WrapperInfoCallback)' is deprecated: Use SetBuildEmbedderGraphCallback to provide info about embedder nodes [-Wdeprecated-declarations]
+       (NODE_ASYNC_ID_OFFSET + AsyncWrap::PROVIDER_ ## PROVIDER), WrapperInfo);
+                                                                             ^
+../src/async_wrap.h:83:3: note: in expansion of macro 'V'
+   V(INSPECTORJSBINDING)
+   ^
+../src/async_wrap.h:91:3: note: in expansion of macro 'NODE_ASYNC_INSPECTOR_PROVIDER_TYPES'
+   NODE_ASYNC_INSPECTOR_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/async_wrap.cc:580:3: note: in expansion of macro 'NODE_ASYNC_PROVIDER_TYPES'
+   NODE_ASYNC_PROVIDER_TYPES(V)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node_persistent.h:6,
+                 from ../src/base_object.h:27,
+                 from ../src/async_wrap.h:27,
+                 from ../src/async_wrap-inl.h:27,
+                 from ../src/async_wrap.cc:22:
+../deps/v8/include/v8-profiler.h:882:12: note: declared here
+       void SetWrapperClassInfoProvider(uint16_t class_id,
+            ^
+../deps/v8/include/v8config.h:324:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~

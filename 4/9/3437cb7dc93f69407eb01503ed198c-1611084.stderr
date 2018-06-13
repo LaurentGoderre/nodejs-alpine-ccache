@@ -1,0 +1,94 @@
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::stepInto(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_breakOnAsyncCall +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1685:17: note: '*((void*)& in_breakOnAsyncCall +1)' was declared here
+     Maybe<bool> in_breakOnAsyncCall;
+                 ^~~~~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::evaluateOnCallFrame(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_throwOnSideEffect +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1025:17: note: '*((void*)& in_throwOnSideEffect +1)' was declared here
+     Maybe<bool> in_throwOnSideEffect;
+                 ^~~~~~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_generatePreview +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1019:17: note: '*((void*)& in_generatePreview +1)' was declared here
+     Maybe<bool> in_generatePreview;
+                 ^~~~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_returnByValue +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1013:17: note: '*((void*)& in_returnByValue +1)' was declared here
+     Maybe<bool> in_returnByValue;
+                 ^~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_silent +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1007:17: note: '*((void*)& in_silent +1)' was declared here
+     Maybe<bool> in_silent;
+                 ^~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_includeCommandLineAPI +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1001:17: note: '*((void*)& in_includeCommandLineAPI +1)' was declared here
+     Maybe<bool> in_includeCommandLineAPI;
+                 ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::setBreakpointByUrl(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: 'in_columnNumber.v8_inspector::protocol::MaybeBase<int>::m_value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1470:16: note: 'in_columnNumber.v8_inspector::protocol::MaybeBase<int>::m_value' was declared here
+     Maybe<int> in_columnNumber;
+                ^~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::searchInContent(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_isRegex +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1308:17: note: '*((void*)& in_isRegex +1)' was declared here
+     Maybe<bool> in_isRegex;
+                 ^~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_caseSensitive +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1302:17: note: '*((void*)& in_caseSensitive +1)' was declared here
+     Maybe<bool> in_caseSensitive;
+                 ^~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::getPossibleBreakpoints(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_restrictToFunction +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1069:17: note: '*((void*)& in_restrictToFunction +1)' was declared here
+     Maybe<bool> in_restrictToFunction;
+                 ^~~~~~~~~~~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Debugger::DispatcherImpl::setScriptSource(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_dryRun +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Debugger.cpp:1585:17: note: '*((void*)& in_dryRun +1)' was declared here
+     Maybe<bool> in_dryRun;
+                 ^~~~~~~~~

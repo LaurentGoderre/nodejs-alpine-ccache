@@ -1,0 +1,4 @@
+../deps/v8/src/compiler/code-assembler.cc: In member function 'v8::internal::compiler::TNode<v8::internal::Word32T> v8::internal::compiler::CodeAssembler::Word32Or(v8::internal::compiler::SloppyTNode<v8::internal::Word32T>, v8::internal::compiler::SloppyTNode<v8::internal::Word32T>)':
+../deps/v8/src/compiler/code-assembler.cc:717:5: warning: 'left_constant' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (left_constant == 0) {
+     ^~

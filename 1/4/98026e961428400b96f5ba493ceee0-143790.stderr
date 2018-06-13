@@ -1,0 +1,8 @@
+../deps/icu-small/source/common/ucnv_u7.c:1466:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl {aka const struct UConverterImpl}' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from ../deps/icu-small/source/common/ucnv_bld.h:29:0,
+                 from ../deps/icu-small/source/common/ucnv_u7.c:25:
+../deps/icu-small/source/common/ucnv_cnv.h:254:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^

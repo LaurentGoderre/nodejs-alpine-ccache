@@ -1,0 +1,4 @@
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8InjectedScriptHost.cpp: In static member function 'static v8::Local<v8::Object> v8_inspector::V8InjectedScriptHost::create(v8::Local<v8::Context>, v8_inspector::V8InspectorImpl*)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8InjectedScriptHost.cpp:45:10: warning: unused variable 'success' [-Wunused-variable]
+     bool success = injectedScriptHost->SetPrototype(context, v8::Null(isolate)).FromMaybe(false);
+          ^

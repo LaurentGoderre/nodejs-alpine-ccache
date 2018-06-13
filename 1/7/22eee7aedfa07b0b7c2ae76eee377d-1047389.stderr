@@ -1,0 +1,6 @@
+../deps/v8/src/base/debug/stack_trace_posix.cc:132:6: warning: 'void v8::base::debug::{anonymous}::OutputPointer(void*, v8::base::debug::{anonymous}::BacktraceOutputHandler*)' defined but not used [-Wunused-function]
+ void OutputPointer(void* pointer, BacktraceOutputHandler* handler) {
+      ^~~~~~~~~~~~~
+../deps/v8/src/base/debug/stack_trace_posix.cc:80:6: warning: 'void v8::base::debug::{anonymous}::DemangleSymbols(std::__cxx11::string*)' defined but not used [-Wunused-function]
+ void DemangleSymbols(std::string* text) {
+      ^~~~~~~~~~~~~~~

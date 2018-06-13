@@ -1,0 +1,79 @@
+../src/node_contextify.cc: In static member function 'static void node::{anonymous}::ContextifyContext::RunInDebugContext(const v8::FunctionCallbackInfo<v8::Value>&)':
+../src/node_contextify.cc:278:43: warning: 'static v8::Local<v8::Context> v8::Debug::GetDebugContext(v8::Isolate*)' is deprecated: Use v8-inspector [-Wdeprecated-declarations]
+     Local<Context> debug_context = Debug::GetDebugContext(args.GetIsolate());
+                                           ^~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:209:39: note: declared here
+                 static Local<Context> GetDebugContext(Isolate* isolate));
+                                       ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node_contextify.cc:278:76: warning: 'static v8::Local<v8::Context> v8::Debug::GetDebugContext(v8::Isolate*)' is deprecated: Use v8-inspector [-Wdeprecated-declarations]
+     Local<Context> debug_context = Debug::GetDebugContext(args.GetIsolate());
+                                                                            ^
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:209:39: note: declared here
+                 static Local<Context> GetDebugContext(Isolate* isolate));
+                                       ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node_contextify.cc:283:14: warning: 'static bool v8::Debug::SetDebugEventListener(v8::Isolate*, v8::Debug::EventCallback, v8::Local<v8::Value>)' is deprecated: No longer supported [-Wdeprecated-declarations]
+       Debug::SetDebugEventListener(args.GetIsolate(), dummy_event_listener);
+              ^~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:145:52: note: declared here
+   V8_DEPRECATED("No longer supported", static bool SetDebugEventListener(
+                                                    ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node_contextify.cc:283:75: warning: 'static bool v8::Debug::SetDebugEventListener(v8::Isolate*, v8::Debug::EventCallback, v8::Local<v8::Value>)' is deprecated: No longer supported [-Wdeprecated-declarations]
+       Debug::SetDebugEventListener(args.GetIsolate(), dummy_event_listener);
+                                                                           ^
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:145:52: note: declared here
+   V8_DEPRECATED("No longer supported", static bool SetDebugEventListener(
+                                                    ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node_contextify.cc:284:30: warning: 'static v8::Local<v8::Context> v8::Debug::GetDebugContext(v8::Isolate*)' is deprecated: Use v8-inspector [-Wdeprecated-declarations]
+       debug_context = Debug::GetDebugContext(args.GetIsolate());
+                              ^~~~~~~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:209:39: note: declared here
+                 static Local<Context> GetDebugContext(Isolate* isolate));
+                                       ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node_contextify.cc:284:63: warning: 'static v8::Local<v8::Context> v8::Debug::GetDebugContext(v8::Isolate*)' is deprecated: Use v8-inspector [-Wdeprecated-declarations]
+       debug_context = Debug::GetDebugContext(args.GetIsolate());
+                                                               ^
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_internals.h:27,
+                 from ../src/node_contextify.cc:22:
+../deps/v8/include/v8-debug.h:209:39: note: declared here
+                 static Local<Context> GetDebugContext(Isolate* isolate));
+                                       ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~

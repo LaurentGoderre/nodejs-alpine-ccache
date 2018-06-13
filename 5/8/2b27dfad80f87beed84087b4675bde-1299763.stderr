@@ -1,0 +1,24 @@
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In static member function 'static v8::Local<v8::Object> v8_inspector::V8Console::createConsole(v8_inspector::InspectedContext*, bool)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:662:10: warning: unused variable 'success' [-Wunused-variable]
+     bool success = console->SetPrototype(context, v8::Object::New(isolate)).FromMaybe(false);
+          ^
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In static member function 'static v8::Local<v8::Object> v8_inspector::V8Console::createCommandLineAPI(v8_inspector::InspectedContext*)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:709:10: warning: unused variable 'success' [-Wunused-variable]
+     bool success = commandLineAPI->SetPrototype(context, v8::Null(isolate)).FromMaybe(false);
+          ^
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In static member function 'static void v8_inspector::V8Console::CommandLineAPIScope::accessorGetterCallback(v8::Local<v8::Name>, const v8::PropertyCallbackInfo<v8::Value>&)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:755:14: warning: unused variable 'removed' [-Wunused-variable]
+         bool removed = info.Holder()->Delete(context, name).FromMaybe(false);
+              ^
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In static member function 'static void v8_inspector::V8Console::CommandLineAPIScope::accessorSetterCallback(v8::Local<v8::Name>, v8::Local<v8::Value>, const v8::PropertyCallbackInfo<void>&)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:782:10: warning: unused variable 'removed' [-Wunused-variable]
+     bool removed = scope->m_installedMethods->Delete(context, name).FromMaybe(false);
+          ^
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In constructor 'v8_inspector::V8Console::CommandLineAPIScope::CommandLineAPIScope(v8::Local<v8::Context>, v8::Local<v8::Object>, v8::Local<v8::Object>)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:808:18: warning: unused variable 'removed' [-Wunused-variable]
+             bool removed = m_installedMethods->Delete(context, name).FromMaybe(false);
+                  ^
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp: In destructor 'v8_inspector::V8Console::CommandLineAPIScope::~CommandLineAPIScope()':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Console.cpp:825:18: warning: unused variable 'success' [-Wunused-variable]
+             bool success = m_global->GetOwnPropertyDescriptor(m_context, v8::Local<v8::String>::Cast(name)).ToLocal(&descriptor);
+                  ^

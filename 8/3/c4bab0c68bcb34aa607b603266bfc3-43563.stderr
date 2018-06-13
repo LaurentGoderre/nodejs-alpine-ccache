@@ -1,0 +1,4 @@
+../deps/icu-small/source/common/udataswp.c: In function 'udata_openSwapperForInputData_58':
+../deps/icu-small/source/common/udataswp.c:438:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if( (length>=0 && length<sizeof(DataHeader)) ||
+                             ^

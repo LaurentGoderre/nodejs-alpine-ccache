@@ -1,0 +1,24 @@
+../deps/v8/src/objects/module.cc: In member function 'v8::internal::Cell* v8::internal::Module::GetCell(int)':
+../deps/v8/src/objects/module.cc:163:25: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return Cell::cast(cell);
+                         ^
+In file included from ../deps/v8/src/objects-inl.h:54:0,
+                 from ../deps/v8/src/objects/module.cc:13:
+../deps/v8/src/objects/object-macros.h: In static member function 'static v8::internal::Handle<v8::internal::Object> v8::internal::Module::LoadVariable(v8::internal::Handle<v8::internal::Module>, int)':
+../deps/v8/src/objects/object-macros.h:59:29: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     type* value = type::cast(READ_FIELD(this, offset));               \
+                             ^
+../deps/v8/src/objects/module.cc:151:11: note: 'cell' was declared here
+   Object* cell;
+           ^~~~
+In file included from ../deps/v8/src/assert-scope.h:9:0,
+                 from ../deps/v8/src/objects.h:11,
+                 from ../deps/v8/src/objects/module.h:8,
+                 from ../deps/v8/src/objects/module.cc:8:
+../deps/v8/src/base/macros.h: In static member function 'static void v8::internal::Module::StoreVariable(v8::internal::Handle<v8::internal::Module>, int, v8::internal::Handle<v8::internal::Object>)':
+../deps/v8/src/base/macros.h:331:30: warning: 'cell' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return x - static_cast<T>(0);
+                              ^
+../deps/v8/src/objects/module.cc:151:11: note: 'cell' was declared here
+   Object* cell;
+           ^~~~

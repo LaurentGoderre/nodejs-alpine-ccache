@@ -1,0 +1,4 @@
+../deps/icu-small/source/common/ubiditransform.cpp: In function 'void resolveBaseDirection(const UChar*, uint32_t, UBiDiLevel*, UBiDiLevel*)':
+../deps/icu-small/source/common/ubiditransform.cpp:397:48: warning: enumeral and non-enumeral type in conditional expression [-Wextra]
+             *pInLevel = level != UBIDI_NEUTRAL ? level
+                                                ^

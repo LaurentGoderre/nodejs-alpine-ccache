@@ -1,0 +1,4 @@
+../src/node_perf.cc: In function 'void node::performance::Init(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Context>)':
+../src/node_perf.cc:325:8: warning: variable 'state_ab' set but not used [-Wunused-but-set-variable]
+   auto state_ab = ArrayBuffer::New(isolate, state, sizeof(*state));
+        ^~~~~~~~

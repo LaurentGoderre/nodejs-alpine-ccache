@@ -1,0 +1,5 @@
+../deps/icu-small/source/i18n/decimfmtimpl.cpp: In member function 'icu_58::UnicodeString& icu_58::DecimalFormatImpl::toNumberPattern(UBool, int32_t, icu_58::UnicodeString&) const':
+../deps/icu-small/source/i18n/decimfmtimpl.cpp:1479:43: warning: 'sigMax' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             if (i >= sigMax || i < sigMax - sigMin) {
+                                           ^
+../deps/icu-small/source/i18n/decimfmtimpl.cpp:1479:43: warning: 'sigMin' may be used uninitialized in this function [-Wmaybe-uninitialized]

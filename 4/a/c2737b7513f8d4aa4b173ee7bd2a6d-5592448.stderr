@@ -1,0 +1,18 @@
+In file included from ../deps/v8/src/compiler/diamond.h:9:0,
+                 from ../deps/v8/src/compiler/wasm-compiler.cc:18:
+../deps/v8/src/compiler/graph.h: In member function 'v8::internal::compiler::Node* v8::internal::compiler::WasmGraphBuilder::BuildChangeEndiannessStore(v8::internal::compiler::Node*, v8::internal::MachineType, v8::internal::wasm::ValueType)':
+../deps/v8/src/compiler/graph.h:70:61: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     std::array<Node*, sizeof...(nodes)> nodes_arr{{nodes...}};
+                                                             ^
+../deps/v8/src/compiler/wasm-compiler.cc:1008:9: note: 'result' was declared here
+   Node* result;
+         ^~~~~~
+In file included from ../deps/v8/src/compiler/diamond.h:9:0,
+                 from ../deps/v8/src/compiler/wasm-compiler.cc:18:
+../deps/v8/src/compiler/graph.h: In member function 'v8::internal::compiler::Node* v8::internal::compiler::WasmGraphBuilder::BuildChangeEndiannessLoad(v8::internal::compiler::Node*, v8::internal::MachineType, v8::internal::wasm::ValueType)':
+../deps/v8/src/compiler/graph.h:70:61: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     std::array<Node*, sizeof...(nodes)> nodes_arr{{nodes...}};
+                                                             ^
+../deps/v8/src/compiler/wasm-compiler.cc:1156:9: note: 'result' was declared here
+   Node* result;
+         ^~~~~~

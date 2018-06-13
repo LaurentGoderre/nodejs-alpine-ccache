@@ -1,0 +1,11 @@
+../deps/v8/src/objects/literal-objects.cc: In static member function 'static v8::internal::Handle<v8::internal::ClassBoilerplate> v8::internal::ClassBoilerplate::BuildClassBoilerplate(v8::internal::Isolate*, v8::internal::ClassLiteral*)':
+../deps/v8/src/objects/literal-objects.cc:112:16: warning: 'value_kind' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       pair->set(value_kind == ClassBoilerplate::kGetter ? ACCESSOR_GETTER
+       ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                         : ACCESSOR_SETTER,
+                                                         ~~~~~~~~~~~~~~~~~~
+                 *value);
+                 ~~~~~~~
+../deps/v8/src/objects/literal-objects.cc:505:33: note: 'value_kind' was declared here
+     ClassBoilerplate::ValueKind value_kind;
+                                 ^~~~~~~~~~

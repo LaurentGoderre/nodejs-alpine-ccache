@@ -1,0 +1,6 @@
+../deps/v8/src/conversions.cc:61:10: warning: 'uint16_t v8::internal::{anonymous}::StringCharacterStreamIterator::operator*() const' defined but not used [-Wunused-function]
+ uint16_t StringCharacterStreamIterator::operator*() const {
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../deps/v8/src/conversions.cc:56:1: warning: 'v8::internal::{anonymous}::StringCharacterStreamIterator::StringCharacterStreamIterator(v8::internal::StringCharacterStream*)' defined but not used [-Wunused-function]
+ StringCharacterStreamIterator::StringCharacterStreamIterator(
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~

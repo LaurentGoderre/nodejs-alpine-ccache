@@ -1,0 +1,34 @@
+../deps/icu-small/source/tools/genrb/read.c: In function 'getStringToken':
+../deps/icu-small/source/tools/genrb/read.c:167:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (c == U_EOF) {
+                       ^
+../deps/icu-small/source/tools/genrb/read.c:184:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     if (c == U_ERR) {
+                           ^
+../deps/icu-small/source/tools/genrb/read.c:245:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (c == U_EOF) {
+                       ^
+../deps/icu-small/source/tools/genrb/read.c:264:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (c == U_EOF) {
+                       ^
+../deps/icu-small/source/tools/genrb/read.c:290:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     if (c == U_ERR) {
+                           ^
+../deps/icu-small/source/tools/genrb/read.c: In function 'getNextChar':
+../deps/icu-small/source/tools/genrb/read.c:334:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (c == U_EOF) {
+               ^
+../deps/icu-small/source/tools/genrb/read.c:349:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (c == U_EOF) {
+               ^
+../deps/icu-small/source/tools/genrb/read.c: In function 'seekUntilNewline':
+../deps/icu-small/source/tools/genrb/read.c:393:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     } while (!isNewline(c) && c != U_EOF && *status == U_ZERO_ERROR);
+                                 ^
+../deps/icu-small/source/tools/genrb/read.c: In function 'seekUntilEndOfComment':
+../deps/icu-small/source/tools/genrb/read.c:427:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     } while (c != U_EOF && *status == U_ZERO_ERROR);
+                ^
+../deps/icu-small/source/tools/genrb/read.c:429:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (c == U_EOF) {
+           ^

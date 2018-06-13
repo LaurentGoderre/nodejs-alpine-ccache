@@ -1,0 +1,44 @@
+In file included from ../deps/v8/src/heap/objects-visiting.h:10:0,
+                 from ../deps/v8/src/heap/object-stats.h:13,
+                 from ../deps/v8/src/heap/heap-inl.h:16,
+                 from ../deps/v8/src/objects/shared-function-info-inl.h:8,
+                 from ../deps/v8/src/contexts-inl.h:14,
+                 from ../deps/v8/src/objects-inl.h:18,
+                 from ../deps/v8/src/x64/assembler-x64-inl.h:12,
+                 from ../deps/v8/src/assembler-inl.h:13,
+                 from ../deps/v8/src/macro-assembler.h:8,
+                 from ../deps/v8/src/x64/codegen-x64.h:8,
+                 from ../deps/v8/src/codegen.h:49,
+                 from ../deps/v8/src/code-stubs.h:10,
+                 from ../deps/v8/src/heap/incremental-marking.cc:7:
+../deps/v8/src/objects-body-descriptors.h: In member function 'void v8::internal::IncrementalMarking::Hurry()':
+../deps/v8/src/objects-body-descriptors.h:66:5: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     IteratePointers(obj, start_offset, end_offset, v);
+     ^~~~~~~~~~~~~~~
+In file included from ../deps/v8/src/heap/incremental-marking.h:11:0,
+                 from ../deps/v8/src/heap/incremental-marking.cc:5:
+../deps/v8/src/heap/mark-compact.h:508:19: note: 'result' was declared here
+       HeapObject* result;
+                   ^~~~~~
+In file included from ../deps/v8/src/heap/objects-visiting.h:10:0,
+                 from ../deps/v8/src/heap/object-stats.h:13,
+                 from ../deps/v8/src/heap/heap-inl.h:16,
+                 from ../deps/v8/src/objects/shared-function-info-inl.h:8,
+                 from ../deps/v8/src/contexts-inl.h:14,
+                 from ../deps/v8/src/objects-inl.h:18,
+                 from ../deps/v8/src/x64/assembler-x64-inl.h:12,
+                 from ../deps/v8/src/assembler-inl.h:13,
+                 from ../deps/v8/src/macro-assembler.h:8,
+                 from ../deps/v8/src/x64/codegen-x64.h:8,
+                 from ../deps/v8/src/codegen.h:49,
+                 from ../deps/v8/src/code-stubs.h:10,
+                 from ../deps/v8/src/heap/incremental-marking.cc:7:
+../deps/v8/src/objects-body-descriptors.h: In member function 'size_t v8::internal::IncrementalMarking::Step(size_t, v8::internal::IncrementalMarking::CompletionAction, v8::internal::IncrementalMarking::ForceCompletionAction, v8::internal::StepOrigin)':
+../deps/v8/src/objects-body-descriptors.h:66:5: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     IteratePointers(obj, start_offset, end_offset, v);
+     ^~~~~~~~~~~~~~~
+In file included from ../deps/v8/src/heap/incremental-marking.h:11:0,
+                 from ../deps/v8/src/heap/incremental-marking.cc:5:
+../deps/v8/src/heap/mark-compact.h:508:19: note: 'result' was declared here
+       HeapObject* result;
+                   ^~~~~~

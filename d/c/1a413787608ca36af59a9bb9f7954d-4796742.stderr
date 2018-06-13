@@ -1,0 +1,9 @@
+In file included from ../deps/v8/src/heap/concurrent-marking.h:11:0,
+                 from ../deps/v8/src/heap/concurrent-marking.cc:5:
+../deps/v8/src/heap/worklist.h: In member function 'void v8::internal::ConcurrentMarking::Run(int, v8::internal::ConcurrentMarking::TaskState*)':
+../deps/v8/src/heap/worklist.h:191:7: warning: 'object' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       entries_[index_++] = entry;
+       ^~~~~~~~
+../deps/v8/src/heap/concurrent-marking.cc:368:21: note: 'object' was declared here
+         HeapObject* object;
+                     ^~~~~~

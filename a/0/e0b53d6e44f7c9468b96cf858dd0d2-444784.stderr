@@ -1,0 +1,6 @@
+../deps/icu-small/source/i18n/coll.cpp:66:31: warning: 'gService' defined but not used [-Wunused-variable]
+ static icu::ICULocaleService* gService = NULL;
+                               ^
+../deps/icu-small/source/i18n/coll.cpp:67:23: warning: 'gServiceInitOnce' defined but not used [-Wunused-variable]
+ static icu::UInitOnce gServiceInitOnce = U_INITONCE_INITIALIZER;
+                       ^

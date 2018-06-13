@@ -1,0 +1,9 @@
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/code-stub-assembler.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'v8::internal::TNode<v8::internal::Oddball> v8::internal::CodeStubAssembler::HasProperty(v8::internal::CodeStubAssembler::SloppyTNode<v8::internal::HeapObject>, v8::internal::CodeStubAssembler::SloppyTNode<v8::internal::Object>, v8::internal::CodeStubAssembler::SloppyTNode<v8::internal::Context>, v8::internal::CodeStubAssembler::HasPropertyLookupMode)':
+../deps/v8/src/compiler/code-assembler.h:947:77: warning: 'fallback_runtime_function_id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                            base::implicit_cast<SloppyTNode<Object>>(args)...);
+                                                                             ^
+../deps/v8/src/code-stub-assembler.cc:10296:25: note: 'fallback_runtime_function_id' was declared here
+     Runtime::FunctionId fallback_runtime_function_id;
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~

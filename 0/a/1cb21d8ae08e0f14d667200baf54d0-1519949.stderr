@@ -1,0 +1,9 @@
+../src/node.cc: In function 'void node::SetupProcessObject(node::Environment*, int, const char* const*, int, const char* const*)':
+../src/node.cc:3326:42: warning: 'bool v8::Object::SetAccessor(v8::Local<v8::Name>, v8::AccessorNameGetterCallback, v8::AccessorNameSetterCallback, v8::Local<v8::Value>, v8::AccessControl, v8::PropertyAttribute)' is deprecated: Use maybe version [-Wdeprecated-declarations]
+                        GetParentProcessId);
+                                          ^
+In file included from ../src/node.h:42:0,
+                 from ../src/node.cc:1:
+../deps/v8/include/v8.h:2750:8: note: declared here
+   V8_DEPRECATED("Use maybe version",
+        ^

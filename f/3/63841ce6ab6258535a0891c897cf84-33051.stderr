@@ -1,0 +1,4 @@
+../deps/icu-small/source/common/ulist.c: In function 'ulist_containsString_58':
+../deps/icu-small/source/common/ulist.c:163:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (length == uprv_strlen(pointer->data)) {
+                        ^

@@ -1,0 +1,26 @@
+In file included from ../deps/v8/src/heap/heap-inl.h:21:0,
+                 from ../deps/v8/src/objects/shared-function-info-inl.h:8,
+                 from ../deps/v8/src/contexts-inl.h:14,
+                 from ../deps/v8/src/objects-inl.h:18,
+                 from ../deps/v8/src/regexp/regexp-parser.cc:10:
+../deps/v8/src/list-inl.h: In member function 'v8::internal::RegExpTree* v8::internal::RegExpParser::ParseCharacterClass()':
+../deps/v8/src/list-inl.h:65:3: warning: 'char_2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   data_[length_++] = temp;
+   ^~~~~
+../deps/v8/src/regexp/regexp-parser.cc:1543:18: note: 'char_2' was declared here
+     uc32 char_1, char_2;
+                  ^~~~~~
+../deps/v8/src/regexp/regexp-parser.cc:1554:9: warning: 'is_class_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if (!is_class_1) ranges->Add(CharacterRange::Singleton(char_1), zone());
+         ^~
+In file included from ../deps/v8/src/heap/heap-inl.h:21:0,
+                 from ../deps/v8/src/objects/shared-function-info-inl.h:8,
+                 from ../deps/v8/src/contexts-inl.h:14,
+                 from ../deps/v8/src/objects-inl.h:18,
+                 from ../deps/v8/src/regexp/regexp-parser.cc:10:
+../deps/v8/src/list-inl.h:65:3: warning: 'char_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   data_[length_++] = temp;
+   ^~~~~
+../deps/v8/src/regexp/regexp-parser.cc:1543:10: note: 'char_1' was declared here
+     uc32 char_1, char_2;
+          ^~~~~~

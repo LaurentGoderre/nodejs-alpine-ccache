@@ -1,0 +1,4 @@
+../deps/icu-small/source/common/ucasemap.cpp: In function 'int32_t appendUChar(uint8_t*, int32_t, int32_t, UChar)':
+../deps/icu-small/source/common/ucasemap.cpp:198:143: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+../deps/icu-small/source/common/ucasemap.cpp:198:173: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+../deps/icu-small/source/common/ucasemap.cpp:204:182: warning: comparison is always true due to limited range of data type [-Wtype-limits]

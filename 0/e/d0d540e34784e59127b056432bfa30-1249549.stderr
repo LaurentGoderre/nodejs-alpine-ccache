@@ -1,0 +1,4 @@
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Debugger.cpp: In member function 'void v8_inspector::V8Debugger::handleV8AsyncTaskEvent(v8::Local<v8::Context>, v8::Local<v8::Object>, v8::Local<v8::Object>)':
+../deps/v8_inspector/third_party/v8_inspector/platform/v8_inspector/V8Debugger.cpp:549:9: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+         NOTREACHED();
+         ^

@@ -1,0 +1,8 @@
+../deps/v8/src/compiler/escape-analysis.cc: In function 'bool v8::internal::compiler::{anonymous}::IsEquivalentPhi(v8::internal::compiler::Node*, v8::internal::ZoneVector<v8::internal::compiler::Node*>&)':
+../deps/v8/src/compiler/escape-analysis.cc:339:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (phi->op()->ValueInputCount() != inputs.size()) {
+                                    ^
+../deps/v8/src/compiler/escape-analysis.cc: In member function 'bool v8::internal::compiler::VirtualObject::MergeFrom(v8::internal::compiler::MergeCache*, v8::internal::compiler::Node*, v8::internal::compiler::Graph*, v8::internal::compiler::CommonOperatorBuilder*)':
+../deps/v8/src/compiler/escape-analysis.cc:403:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (cache->fields().size() == arity) {
+                                  ^

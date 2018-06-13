@@ -1,0 +1,4 @@
+../deps/icu-small/source/common/utrace.c: In function 'outputPtrBytes':
+../deps/icu-small/source/common/utrace.c:149:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (i=0; i<sizeof(void *); i++) {
+                ^

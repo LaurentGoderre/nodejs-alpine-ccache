@@ -1,0 +1,4 @@
+../deps/icu-small/source/tools/toolutil/ucmstate.cpp: In function 'void compactToUnicode2(UCMStates*, uint16_t**, _MBCSToUFallback*, int32_t, UBool)':
+../deps/icu-small/source/tools/toolutil/ucmstate.cpp:656:83: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(MBCS_ENTRY_IS_TRANSITION(entry) && (MBCS_ENTRY_TRANSITION_STATE(entry))==trailState) {
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~

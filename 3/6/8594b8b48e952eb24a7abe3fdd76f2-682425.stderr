@@ -1,0 +1,4 @@
+../deps/icu-small/source/i18n/olsontz.cpp: In member function 'virtual UBool icu_60::OlsonTimeZone::inDaylightTime(UDate, UErrorCode&) const':
+../deps/icu-small/source/i18n/olsontz.cpp:604:18: warning: 'dst' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int32_t raw, dst;
+                  ^~~

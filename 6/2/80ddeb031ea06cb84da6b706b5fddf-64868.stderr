@@ -1,0 +1,7 @@
+../deps/icu-small/source/common/ures_cnv.c: In function 'ures_openU_58':
+../deps/icu-small/source/common/ures_cnv.c:46:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(length>=sizeof(pathBuffer)) {
+                  ^
+../deps/icu-small/source/common/ures_cnv.c:64:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if(length>=sizeof(pathBuffer)) {
+                      ^

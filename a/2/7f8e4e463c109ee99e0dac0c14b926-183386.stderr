@@ -1,0 +1,20 @@
+../deps/icu-small/source/common/uloc_tag.c: In function '_appendLDMLExtensionAsKeywords':
+../deps/icu-small/source/common/uloc_tag.c:1374:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (bcpKeyLen >= sizeof(bcpKeyBuf)) {
+                               ^
+../deps/icu-small/source/common/uloc_tag.c:1409:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     if (bcpTypeLen >= sizeof(bcpTypeBuf)) {
+                                    ^
+../deps/icu-small/source/common/uloc_tag.c: In function 'uloc_toLanguageTag_58':
+../deps/icu-small/source/common/uloc_tag.c:1084:24: warning: 'bcpValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             ext->value = bcpValue;
+                        ^
+../deps/icu-small/source/common/uloc_tag.c:926:30: note: 'bcpValue' was declared here
+         const char *bcpKey, *bcpValue;
+                              ^
+../deps/icu-small/source/common/uloc_tag.c:1083:22: warning: 'bcpKey' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             ext->key = bcpKey;
+                      ^
+../deps/icu-small/source/common/uloc_tag.c:926:21: note: 'bcpKey' was declared here
+         const char *bcpKey, *bcpValue;
+                     ^

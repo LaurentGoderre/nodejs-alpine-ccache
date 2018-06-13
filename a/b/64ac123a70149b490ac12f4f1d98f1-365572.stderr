@@ -1,0 +1,6 @@
+../deps/icu-small/source/tools/genrb/wrtxml.cpp:399:1: warning: 'void print(UChar*, int32_t, const char*, const char*, UErrorCode*)' defined but not used [-Wunused-function]
+ print(UChar* src, int32_t srcLen,const char *tagStart,const char *tagEnd,  UErrorCode *status){
+ ^
+../deps/icu-small/source/tools/genrb/wrtxml.cpp:474:13: warning: 'void printAttribute(const char*, icu_58::UnicodeString, int32_t)' defined but not used [-Wunused-function]
+ static void printAttribute(const char *name, const UnicodeString value, int32_t /*len*/)
+             ^

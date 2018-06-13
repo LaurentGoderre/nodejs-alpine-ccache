@@ -1,0 +1,27 @@
+../src/node.cc: In function 'void node::DebugPause(const v8::FunctionCallbackInfo<v8::Value>&)':
+../src/node.cc:4392:14: warning: 'static void v8::Debug::DebugBreak(v8::Isolate*)' is deprecated: No longer supported [-Wdeprecated-declarations]
+   v8::Debug::DebugBreak(args.GetIsolate());
+              ^~~~~~~~~~
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_buffer.h:25,
+                 from ../src/node.cc:22:
+../deps/v8/include/v8-debug.h:152:29: note: declared here
+                 static void DebugBreak(Isolate* isolate));
+                             ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~
+../src/node.cc:4392:42: warning: 'static void v8::Debug::DebugBreak(v8::Isolate*)' is deprecated: No longer supported [-Wdeprecated-declarations]
+   v8::Debug::DebugBreak(args.GetIsolate());
+                                          ^
+In file included from ../deps/v8/include/v8.h:26:0,
+                 from ../src/node.h:63,
+                 from ../src/node_buffer.h:25,
+                 from ../src/node.cc:22:
+../deps/v8/include/v8-debug.h:152:29: note: declared here
+                 static void DebugBreak(Isolate* isolate));
+                             ^
+../deps/v8/include/v8config.h:318:3: note: in definition of macro 'V8_DEPRECATED'
+   declarator __attribute__((deprecated(message)))
+   ^~~~~~~~~~

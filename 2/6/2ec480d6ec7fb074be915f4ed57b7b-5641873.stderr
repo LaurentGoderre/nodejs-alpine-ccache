@@ -1,0 +1,4 @@
+../deps/v8/src/isolate.cc: In member function 'v8::internal::Handle<v8::internal::StackFrameInfo> v8::internal::CaptureStackTraceHelper::NewStackFrameObject(const v8::internal::FrameSummary::JavaScriptFrameSummary&)':
+../deps/v8/src/isolate.cc:787:77: warning: 'code_offset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       auto new_cache = SimpleNumberDictionary::Set(cache, code_offset, frame);
+                                                                             ^

@@ -1,0 +1,13 @@
+In file included from ../deps/v8/src/base/lazy-instance.h:71:0,
+                 from ../deps/v8/src/base/platform/mutex.h:9,
+                 from ../deps/v8/src/base/platform/platform.h:31,
+                 from ../deps/v8/src/allocation.h:10,
+                 from ../deps/v8/src/heap/concurrent-marking.h:9,
+                 from ../deps/v8/src/heap/concurrent-marking.cc:5:
+../deps/v8/src/base/macros.h: In member function 'void v8::internal::ConcurrentMarking::Run(int, v8::internal::ConcurrentMarking::TaskState*)':
+../deps/v8/src/base/macros.h:331:30: warning: 'object' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return x - static_cast<T>(0);
+                              ^
+../deps/v8/src/heap/concurrent-marking.cc:547:21: note: 'object' was declared here
+         HeapObject* object;
+                     ^~~~~~

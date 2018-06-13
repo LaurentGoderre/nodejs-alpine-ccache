@@ -1,0 +1,4 @@
+../deps/icu-small/source/i18n/collationweights.cpp: In member function 'UBool icu_60::CollationWeights::allocWeights(uint32_t, uint32_t, int32_t)':
+../deps/icu-small/source/i18n/collationweights.cpp:394:39: warning: assuming signed overflow does not occur when assuming that (X + c) < X is always false [-Wstrict-overflow]
+     for(int32_t i = 0; i < rangeCount && ranges[i].length <= (minLength + 1); ++i) {
+                        ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

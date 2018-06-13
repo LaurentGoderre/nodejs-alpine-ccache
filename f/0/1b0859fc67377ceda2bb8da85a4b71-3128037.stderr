@@ -1,0 +1,6 @@
+../deps/v8/src/compiler/store-store-elimination.cc:555:6: warning: 'bool v8::internal::compiler::{anonymous}::UnobservableStore::operator!=(v8::internal::compiler::{anonymous}::UnobservableStore) const' defined but not used [-Wunused-function]
+ bool UnobservableStore::operator!=(const UnobservableStore other) const {
+      ^~~~~~~~~~~~~~~~~
+../deps/v8/src/compiler/store-store-elimination.cc:254:6: warning: 'static bool v8::internal::compiler::{anonymous}::RedundantStoreFinder::IsEffectful(v8::internal::compiler::Node*)' defined but not used [-Wunused-function]
+ bool RedundantStoreFinder::IsEffectful(Node* node) {
+      ^~~~~~~~~~~~~~~~~~~~

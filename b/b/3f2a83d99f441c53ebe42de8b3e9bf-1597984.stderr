@@ -1,0 +1,17 @@
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h: In member function 'v8_inspector::protocol::DispatchResponse::Status v8_inspector::protocol::Profiler::DispatcherImpl::startPreciseCoverage(int, std::unique_ptr<v8_inspector::protocol::DictionaryValue>, v8_inspector::protocol::ErrorSupport*)':
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_callCount +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.cpp:681:17: note: '*((void*)& in_callCount +1)' was declared here
+     Maybe<bool> in_callCount;
+                 ^~~~~~~~~~~~
+In file included from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.h:10:0,
+                 from /node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.cpp:7:
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Protocol.h:563:94: warning: '*((void*)& in_detailed +1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MaybeBase(MaybeBase&& other) : m_isJust(other.m_isJust), m_value(std::move(other.m_value)) { }
+                                                                                              ^
+/node-v10.4.1/out/Release/obj/gen/src/inspector/protocol/Profiler.cpp:687:17: note: '*((void*)& in_detailed +1)' was declared here
+     Maybe<bool> in_detailed;
+                 ^~~~~~~~~~~

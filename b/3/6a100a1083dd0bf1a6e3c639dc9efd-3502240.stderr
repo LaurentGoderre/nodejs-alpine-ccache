@@ -1,0 +1,14 @@
+In file included from ../src/base64.h:6:0,
+                 from ../test/cctest/test_base64.cc:1:
+../src/util.h:47:11: warning: inline function 'T* node::Malloc(size_t) [with T = char; size_t = long unsigned int]' used but never defined
+ inline T* Malloc(size_t n);
+           ^
+../src/util.h:49:11: warning: inline function 'T* node::Calloc(size_t) [with T = char; size_t = long unsigned int]' used but never defined
+ inline T* Calloc(size_t n);
+           ^
+../src/util.h:38:11: warning: inline function 'T* node::UncheckedMalloc(size_t) [with T = char; size_t = long unsigned int]' used but never defined
+ inline T* UncheckedMalloc(size_t n);
+           ^
+../src/util.h:40:11: warning: inline function 'T* node::UncheckedCalloc(size_t) [with T = char; size_t = long unsigned int]' used but never defined
+ inline T* UncheckedCalloc(size_t n);
+           ^

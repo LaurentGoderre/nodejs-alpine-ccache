@@ -1,0 +1,10 @@
+../deps/v8/src/compiler/int64-lowering.cc: In member function 'void v8::internal::compiler::Int64Lowering::LowerNode(v8::internal::compiler::Node*)':
+../deps/v8/src/compiler/int64-lowering.cc:187:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (parameter_count != signature()->parameter_count()) {
+                           ^
+../deps/v8/src/compiler/int64-lowering.cc:201:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (GetParameterCountAfterLowering(signature()) !=
+                                                       ^
+../deps/v8/src/compiler/int64-lowering.cc:220:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (signature()->return_count() != new_return_count) {
+                                       ^

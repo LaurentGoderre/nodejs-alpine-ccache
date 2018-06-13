@@ -1,0 +1,50 @@
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/builtins/builtins-constructor-gen.h:8,
+                 from ../deps/v8/src/builtins/builtins-collections-gen.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'void v8::internal::BaseCollectionsAssembler::AddConstructorEntriesFromFastJSArray(v8::internal::BaseCollectionsAssembler::Variant, v8::internal::CodeStubAssembler::TNode<v8::internal::Context>, v8::internal::CodeStubAssembler::TNode<v8::internal::Context>, v8::internal::CodeStubAssembler::TNode<v8::internal::Object>, v8::internal::CodeStubAssembler::TNode<v8::internal::JSArray>, v8::internal::compiler::CodeAssembler::Label*)':
+../deps/v8/src/compiler/code-assembler.h:648:27: warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define CAST(x) Cast(x, "")
+                           ^
+../deps/v8/src/builtins/builtins-collections-gen.cc:422:7: note: 'index' was declared here
+   int index;
+       ^~~~~
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/builtins/builtins-constructor-gen.h:8,
+                 from ../deps/v8/src/builtins/builtins-collections-gen.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'v8::internal::TNode<v8::internal::JSFunction> v8::internal::BaseCollectionsAssembler::GetConstructor(v8::internal::BaseCollectionsAssembler::Variant, v8::internal::CodeStubAssembler::TNode<v8::internal::Context>)':
+../deps/v8/src/compiler/code-assembler.h:648:27: warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define CAST(x) Cast(x, "")
+                           ^
+../deps/v8/src/builtins/builtins-collections-gen.cc:402:7: note: 'index' was declared here
+   int index;
+       ^~~~~
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/builtins/builtins-constructor-gen.h:8,
+                 from ../deps/v8/src/builtins/builtins-collections-gen.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'v8::internal::TNode<v8::internal::JSFunction> v8::internal::BaseCollectionsAssembler::GetInitialAddFunction(v8::internal::BaseCollectionsAssembler::Variant, v8::internal::CodeStubAssembler::TNode<v8::internal::Context>)':
+../deps/v8/src/compiler/code-assembler.h:648:27: warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define CAST(x) Cast(x, "")
+                           ^
+../deps/v8/src/builtins/builtins-collections-gen.cc:422:7: note: 'index' was declared here
+   int index;
+       ^~~~~
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/builtins/builtins-constructor-gen.h:8,
+                 from ../deps/v8/src/builtins/builtins-collections-gen.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'v8::internal::TNode<v8::internal::BoolT> v8::internal::BaseCollectionsAssembler::HasInitialCollectionPrototype(v8::internal::BaseCollectionsAssembler::Variant, v8::internal::CodeStubAssembler::TNode<v8::internal::Context>, v8::internal::CodeStubAssembler::TNode<v8::internal::Object>)':
+../deps/v8/src/compiler/code-assembler.h:648:27: warning: 'initial_prototype_index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define CAST(x) Cast(x, "")
+                           ^
+../deps/v8/src/builtins/builtins-collections-gen.cc:470:7: note: 'initial_prototype_index' was declared here
+   int initial_prototype_index;
+       ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../deps/v8/src/code-stub-assembler.h:10:0,
+                 from ../deps/v8/src/builtins/builtins-constructor-gen.h:8,
+                 from ../deps/v8/src/builtins/builtins-collections-gen.cc:5:
+../deps/v8/src/compiler/code-assembler.h: In member function 'void v8::internal::BaseCollectionsAssembler::GenerateConstructor(v8::internal::BaseCollectionsAssembler::Variant, v8::internal::Handle<v8::internal::String>)':
+../deps/v8/src/compiler/code-assembler.h:648:27: warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define CAST(x) Cast(x, "")
+                           ^
+../deps/v8/src/builtins/builtins-collections-gen.cc:402:7: note: 'index' was declared here
+   int index;
+       ^~~~~

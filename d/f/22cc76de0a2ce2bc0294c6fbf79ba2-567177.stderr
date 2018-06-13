@@ -1,0 +1,4 @@
+../deps/icu-small/source/tools/genrb/parse.cpp: In function 'SResource* parseTransliterator(ParseState*, char*, uint32_t, const UString*, UErrorCode*)':
+../deps/icu-small/source/tools/genrb/parse.cpp:465:18: warning: variable 'pSource' set but not used [-Wunused-but-set-variable]
+     const UChar *pSource     = NULL;
+                  ^
